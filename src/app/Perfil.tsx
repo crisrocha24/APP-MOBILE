@@ -7,7 +7,7 @@ export default function Perfil() {
             Perfil
             </Text>
         <Text style={styles.text}>
-            Ciência da computação
+            
         </Text>
       <Text></Text>
     </View>
