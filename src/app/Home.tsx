@@ -1,9 +1,32 @@
-import { StyleSheet, Text, View } from "react-native";
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
-export default function Index() {
+export default function Home() {
   return (
     <View style={styles.container}>
-      <Text>Bem vindo ao React Native!</Text>
+      <Text style={styles.titulo}>LifeStyle</Text>
+
+      <Text style={styles.subtitulo}>
+        Disciplina hoje, liberdade amanhã.
+      </Text>
+
+      <View style={styles.card}>
+        <Text style={styles.cardTitulo}>
+          Programação Mobile
+        </Text>
+
+        <Text style={styles.item}>
+          📚 React Native
+        </Text>
+
+        <Text style={styles.item}>
+          ☕ Café: 2/3
+        </Text>
+
+        <Text style={styles.item}>
+          💧 Água: 2.5L
+        </Text>
+      </View>
     </View>
   );
 }
